@@ -1,0 +1,9 @@
+.cover {
+  margin: 0 48px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 740px;
+  text-decoration-line: none;
+  color: #fff;
+}
