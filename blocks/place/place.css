@@ -1,0 +1,15 @@
+.place {
+  display: grid;
+  padding-bottom: 80px;
+  gap: 40px;
+  grid-template-areas:
+  "title link"
+  "image paragraph_top"
+  "image paragraph_bottom"
+  "image .";
+  align-items: end;
+}
+
+.place:last-child {
+  padding-bottom: 0;
+}

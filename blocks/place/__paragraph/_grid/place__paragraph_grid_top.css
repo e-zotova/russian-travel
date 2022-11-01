@@ -1,0 +1,7 @@
+.place__paragraph_grid_top {
+  grid-area: paragraph_top;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+}
