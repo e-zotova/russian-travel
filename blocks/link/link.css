@@ -1,9 +1,10 @@
 .link {
   text-decoration-line: none;
   color: #fff;
+  border: 2px solid transparent;
 }
 
 .link:hover {
-  text-decoration-line: underline;
+  border-bottom: 2px solid #fff;
   opacity: 0.7;
 }
