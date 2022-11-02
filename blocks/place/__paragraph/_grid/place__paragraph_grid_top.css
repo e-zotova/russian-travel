@@ -5,3 +5,9 @@
   font-size: 18px;
   line-height: 163%;
 }
+
+@media screen and (max-width: 425px) {
+  .place__paragraph_grid_top {
+    padding: 0 16px;
+  }
+}

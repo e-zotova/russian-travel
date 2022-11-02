@@ -13,3 +13,28 @@
 .place:last-child {
   padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .place {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    gap: 28px;
+  }
+}
+
+
+@media screen and (max-width: 425px) {
+  .place {
+    grid-template-areas:
+    "title"
+    "link"
+    "image"
+    "paragraph_top"
+    "paragraph_bottom";
+    gap: 32px;
+  }
+}

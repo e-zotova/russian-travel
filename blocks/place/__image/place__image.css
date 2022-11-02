@@ -7,3 +7,27 @@
   max-width: 460px;
   max-height: 460px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+    max-height: 440px;
+    align-self: start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    min-width: 320px;
+    min-height: 320px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
