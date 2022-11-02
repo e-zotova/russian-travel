@@ -4,6 +4,6 @@
 }
 
 .link:hover {
-  text-decoration-line: none;
+  text-decoration-line: underline;
   opacity: 0.7;
 }
