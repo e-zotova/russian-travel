@@ -1,13 +1,4 @@
 .place__paragraph_grid_top {
-  grid-area: paragraph_top;
   margin: 0;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 163%;
-}
-
-@media screen and (max-width: 425px) {
-  .place__paragraph_grid_top {
-    padding: 0 16px;
-  }
+  padding-bottom: 26px;
 }
