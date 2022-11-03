@@ -36,5 +36,6 @@
     "paragraph_top"
     "paragraph_bottom";
     gap: 32px;
+    padding-bottom: 50px;
   }
 }
