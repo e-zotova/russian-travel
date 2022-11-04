@@ -3,3 +3,9 @@
   align-items: flex-end;
   gap: 18px;
 }
+
+@media screen and (max-width: 425px) {
+  .header__lang {
+    align-items: center;
+  }
+}
