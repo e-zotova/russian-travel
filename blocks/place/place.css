@@ -38,7 +38,7 @@
     "paragraph"
     "paragraph";
     row-gap: 32px;
-    padding-bottom: 50px;
+    padding-bottom: 18px;
   }
 
   .place:last-child {
@@ -49,17 +49,5 @@
 @media screen and (max-width: 320px) {
   .place {
     grid-template-columns: 320px;
-    grid-template-areas:
-    "title"
-    "link"
-    "image"
-    "paragraph"
-    "paragraph";
-    row-gap: 32px;
-    padding-bottom: 50px;
-  }
-
-  .place:last-child {
-    padding: 0;
   }
 }
