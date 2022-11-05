@@ -20,6 +20,13 @@
   }
 }
 
+/*iPhone landscape*/
+@media screen and (max-width: 844px) {
+  .place {
+    grid-template-columns: 370px 400px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 342px 350px;

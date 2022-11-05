@@ -8,6 +8,13 @@
   }
 }
 
+/*iPhone landscape*/
+@media screen and (max-width: 844px) {
+  .places {
+   padding: 92px 20px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .places {
    padding: 88px 24px 90px;
