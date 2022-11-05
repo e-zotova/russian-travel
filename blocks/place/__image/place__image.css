@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 425px) {
   .place__image {
-    min-width: 320px;
-    min-height: 320px;
+    max-width: 320px;
+    max-height: 320px;
     max-width: 100%;
     max-height: 100%;
   }
