@@ -10,5 +10,4 @@
 * относительные размеры блоков;
 * медиазапросы.
 
-**GitHub Pages**
-* [Ссылка на проект в GitHub Pages](https://e-zotova.github.io/russian-travel/)
+[Ссылка на проект в GitHub Pages](https://e-zotova.github.io/russian-travel/)
