@@ -2,13 +2,13 @@
   display: grid;
   padding: 0 48px;
   gap: 16px;
-  grid-template-columns: repeat(4, minmax(min-content, 1fr));
+  grid-template-columns: repeat(4, minmax(min-content, max-content));
   grid-template-rows: auto;
 }
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    grid-template-columns: repeat(3, minmax(min-content, 1fr));
+    grid-template-columns: repeat(3, minmax(min-content, max-content));
     gap: 14px;
   }
 }
@@ -16,14 +16,14 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     padding: 0 24px;
-    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
   }
 }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
     padding: 0 16px;
-    grid-template-columns: minmax(min-content, 1fr);
+    grid-template-columns: minmax(min-content, max-content);
     gap: 12px;
   }
 }

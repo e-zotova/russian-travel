@@ -1,5 +1,6 @@
 .lead {
   padding: 0 148px;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1024px) {
