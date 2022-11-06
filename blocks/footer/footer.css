@@ -9,6 +9,11 @@
   .footer {
     max-width: 720px;
     padding: 88px 24px 24px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .footer {
     flex-direction: column;
   }
 }
