@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: no-repeat center/contain url(../../../images/cover-trains.jpg);
+  background: no-repeat center/cover url(../../../images/cover-trains.jpg);
   box-sizing: border-box;
   text-decoration: none;
   z-index: 0;
