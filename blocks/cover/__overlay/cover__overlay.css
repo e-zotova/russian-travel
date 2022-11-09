@@ -5,10 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: contain;
+  background: no-repeat center/contain url(../../../images/cover-trains.jpg);
   box-sizing: border-box;
   text-decoration: none;
   z-index: 0;
@@ -28,7 +25,6 @@
 }
 
 .cover__overlay:hover::before {
-  background-color: #2A2C2F;
   opacity: .8;
 }
 
