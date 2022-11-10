@@ -9,6 +9,12 @@
   color: white;
 }
 
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    padding-top: 0;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .cover__subtitle {
     max-width: 288px;
