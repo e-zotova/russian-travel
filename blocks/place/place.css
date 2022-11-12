@@ -8,6 +8,7 @@
   "title link"
   "image paragraph";
   align-items: start;
+  justify-content: center;
 }
 
 .place:last-child {
