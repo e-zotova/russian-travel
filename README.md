@@ -12,4 +12,7 @@
 * методология БЭМ;
 * медиазапросы.
 
+## Запуск проекта.
+Клонировать репозиторий, открыть в VSCode, запустить index.html с помощью LiveServer.
+
 [Ссылка на проект в GitHub Pages](https://e-zotova.github.io/russian-travel/)
